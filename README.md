@@ -5,7 +5,7 @@ I'm a software engineering student interested in building reliable APIs and busi
 ## Projects
 
 - [ai-photo-checker](https://github.com/kurapikac2/ai-photo-checker) — a Django image analysis prototype. It combines local checks with optional external model analysis and explains its scoring. Its results are estimates, not forensic proof.
-- [inventory-order-api](https://github.com/kurapikac2/inventory-order-api/pull/1) — an ASP.NET Core inventory API focused on transactional stock reservations and order state changes. The initial implementation is under review.
+- [inventory-order-api](https://github.com/kurapikac2/inventory-order-api) — an ASP.NET Core inventory API focused on transactional stock reservations and order state changes.
 
 ## Currently learning
 
