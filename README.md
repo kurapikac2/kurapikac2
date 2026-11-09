@@ -1,45 +1,62 @@
 # Samir Koziyev
 
-**Software engineering student · Backend development · Python & C#**
+**Backend Software Engineering Student**
 
-I build small, practical applications and focus on the parts that make software reliable: data modeling, API design, access control, transactions and tests.
+Python · FastAPI · Java · Spring Boot · C# · ASP.NET Core · PostgreSQL
 
-Based in Tashkent, Uzbekistan. Interested in backend engineering internships and junior developer opportunities.
+I build practical applications to learn API design, data modeling, access control and reliable database transactions. My projects include executable tests, reproducible setup instructions and explicit limitations.
 
-## Selected projects
+Based in Tashkent, Uzbekistan. Interested in backend internships and junior engineering roles, including opportunities in South Korea, subject to work authorization.
+
+## Public projects
 
 ### [Inventory & Order API](https://github.com/kurapikac2/inventory-order-api)
+
 **C# · ASP.NET Core · EF Core · PostgreSQL · xUnit**
 
-An inventory API built around a concrete business rule: you should never be able to sell the same stock twice. It supports multi-item order reservations, cancellation and fulfillment, with transactional updates and a PostgreSQL concurrency test.
+Transactional stock reservations, cancellation and fulfillment. A PostgreSQL concurrency test checks competing orders for the last available units; an HTTP walkthrough verifies stock changes and an insufficient-stock conflict.
 
-[Code and setup](https://github.com/kurapikac2/inventory-order-api#readme) · [CI checks](https://github.com/kurapikac2/inventory-order-api/actions)
+[Code and setup](https://github.com/kurapikac2/inventory-order-api#readme) · [Executable demo](https://github.com/kurapikac2/inventory-order-api/blob/main/docs/DEMO.md) · [CI](https://github.com/kurapikac2/inventory-order-api/actions)
 
 ### [IssueBoard](https://github.com/kurapikac2/IssueBoard)
-**Python · FastAPI · SQLite · JavaScript · pytest**
 
-A personal issue tracker with registration, project ownership, task filters and an auditable status history. Built with a lightweight same-origin interface and explicit SQL transactions.
+**Python · FastAPI · SQLite · JavaScript · pytest · Playwright**
 
-[Code and setup](https://github.com/kurapikac2/IssueBoard#readme) · [Tests and CI](https://github.com/kurapikac2/IssueBoard/actions)
+A personal issue tracker with session authentication, project ownership, CSRF protection and transactional status history. Browser coverage exercises registration, project and issue workflows, filters, metrics and mobile layout. Includes actual desktop and mobile screenshots.
+
+[Code and screenshots](https://github.com/kurapikac2/IssueBoard#readme) · [Verification scope](https://github.com/kurapikac2/IssueBoard/blob/main/docs/MANUAL_QA.md) · [CI](https://github.com/kurapikac2/IssueBoard/actions)
 
 ### [AI Photo Checker](https://github.com/kurapikac2/ai-photo-checker)
+
 **Python · Django · Pillow · OpenCV · SQLite**
 
-An experimental image-analysis application combining local image heuristics with an optional external vision model. I focus on safe file handling, private results and clear uncertainty: the outputs are indicators, not proof of authenticity.
+An image-analysis prototype with private uploads, session-owned results, local heuristics and optional external AI review. Tests cover privacy boundaries and real browser uploads. Its scores are **uncalibrated indicators, not validated probabilities or proof of authenticity**.
 
-[Code and setup](https://github.com/kurapikac2/ai-photo-checker#readme) · [CI checks](https://github.com/kurapikac2/ai-photo-checker/actions)
+[Code and screenshots](https://github.com/kurapikac2/ai-photo-checker#readme) · [Verification scope](https://github.com/kurapikac2/ai-photo-checker/blob/main/docs/VERIFICATION.md) · [CI](https://github.com/kurapikac2/ai-photo-checker/actions)
 
-## What I work with
+## Private projects
 
-- **Languages:** Python, C#, SQL, JavaScript
-- **Backend:** FastAPI, Django, ASP.NET Core
-- **Data:** SQLite, PostgreSQL, Entity Framework Core
-- **Engineering tools:** Git, GitHub Actions, Docker, automated testing
+These repositories are **private**: their source, screenshots and CI evidence require access and are not available to anonymous visitors.
 
-I'm continuing to learn deeper .NET and Python backend design, database transactions, and production deployment practices.
+- **SeatFlow — Java 21, Spring Boot, PostgreSQL:** study-space booking with concurrent capacity protection, FIFO waitlists and expiring offers. Includes JVM integration tests, browser checks and English/Korean interfaces.
+- **DataFlow — Python, FastAPI, SQLAlchemy, PostgreSQL:** sales analytics and CSV imports with validation, idempotent replay and transactional coordination. Includes SQL reporting, backend/browser tests and documented local benchmarks.
 
-## What I'm looking for
+## Engineering focus
 
-An internship or junior role where I can contribute to real backend tasks, review code with more experienced engineers, and keep improving my fundamentals.
+- **Data integrity:** competing reservations, atomic state transitions and import idempotency.
+- **Security boundaries:** ownership, sessions, CSRF and private file access, with deployment limitations documented.
+- **Verification:** database integration tests, browser workflows and GitHub Actions evidence tied to reviewed changes.
 
-My repositories include setup instructions and notes on what's tested, what's experimental, and what I would change next.
+## Tools I use in these projects
+
+Hands-on project experience; I am continuing to deepen my fundamentals.
+
+- **Languages:** Python, Java, C#, SQL, JavaScript
+- **Backend:** FastAPI, Django, Spring Boot, ASP.NET Core
+- **Data:** PostgreSQL, SQLite, SQLAlchemy, EF Core; Alembic and Flyway migrations
+- **Testing:** pytest, Django tests, JUnit, xUnit, Playwright
+- **Tooling:** Git, GitHub Actions, Docker Compose
+
+## Contact
+
+GitHub: [@kurapikac2](https://github.com/kurapikac2). I am interested in learning through practical backend work and thoughtful code review.
