@@ -14,7 +14,7 @@ Based in Tashkent, Uzbekistan. Interested in backend internships and junior engi
 
 **C# · ASP.NET Core · EF Core · PostgreSQL · xUnit**
 
-Transactional stock reservations, cancellation and fulfillment. A PostgreSQL concurrency test checks competing orders for the last available units; an HTTP walkthrough verifies stock changes and an insufficient-stock conflict.
+The demo starts with five units in stock. Reserving four leaves one available, so a second order for four returns HTTP 409. Cancelling the first order releases the stock. A separate PostgreSQL test checks what happens when two orders compete for the last units.
 
 [Code and setup](https://github.com/kurapikac2/inventory-order-api#readme) · [Demo walkthrough](https://github.com/kurapikac2/inventory-order-api/blob/main/docs/DEMO.md) · [PowerShell demo script](https://github.com/kurapikac2/inventory-order-api/blob/main/scripts/demo.ps1) · [CI](https://github.com/kurapikac2/inventory-order-api/actions)
 
