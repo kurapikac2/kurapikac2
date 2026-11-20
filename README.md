@@ -16,7 +16,7 @@ Based in Tashkent, Uzbekistan. Interested in backend internships and junior engi
 
 Transactional stock reservations, cancellation and fulfillment. A PostgreSQL concurrency test checks competing orders for the last available units; an HTTP walkthrough verifies stock changes and an insufficient-stock conflict.
 
-[Code and setup](https://github.com/kurapikac2/inventory-order-api#readme) · [Executable demo](https://github.com/kurapikac2/inventory-order-api/blob/main/docs/DEMO.md) · [CI](https://github.com/kurapikac2/inventory-order-api/actions)
+[Code and setup](https://github.com/kurapikac2/inventory-order-api#readme) · [Demo walkthrough](https://github.com/kurapikac2/inventory-order-api/blob/main/docs/DEMO.md) · [PowerShell demo script](https://github.com/kurapikac2/inventory-order-api/blob/main/scripts/demo.ps1) · [CI](https://github.com/kurapikac2/inventory-order-api/actions)
 
 ### [IssueBoard](https://github.com/kurapikac2/IssueBoard)
 
